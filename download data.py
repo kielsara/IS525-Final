@@ -14,6 +14,7 @@ os.makedirs("gsod_laguardia", exist_ok=True)
 start_year = 1929
 end_year = 2025
 
+# data from https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00516/html#
 base_url = "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access"
 
 all_dataframes = []
